@@ -1,3 +1,20 @@
 require_relative '../config/environment'
+require 'tty-prompt'
 
-puts "hello world"
+def run 
+    greeting
+    select_ice_cream_flavor
+    select_toppings
+    finalize_order
+end
+run
+
+
+
+
+
+
+
+
+
+
